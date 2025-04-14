@@ -1,0 +1,77 @@
+/* Grundstil och mörkblått tema 4aa8ff*/
+body {
+    background-color: #2d2d2e;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #6d0f0f;
+    padding: 15px;
+}
+
+h1 {
+    margin: 0;
+    color: #ffffff;
+}
+
+.container {
+    padding: 20px;
+}
+
+/* Grid för produkterna */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.product {
+    background: #414348;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: 50%;
+    border-radius: 5px;
+}
+
+.btn {
+    display: inline-block;
+    background: #6d0f0f;
+    color: #ffffff;
+    padding: 10px 15px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background: #6d0f0f;
+}
+
+/* Rubrikstil med ram (frame) */
+h2 {
+    color: #ffffff;
+    margin: 40px auto 20px;
+    font-size: 28px;
+    text-align: center;
+    border: 3px solid #6d0f0f;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
